@@ -1,4 +1,4 @@
-# OpenMp
+# MPI
 Este programa utiliza el método de integración trapezoidal para calcular la integral de una función dada, en este caso x^2, en un intervalo [a,b] dividido en n subintervalos. En este caso la integral de x^2 con el intervalo [50,1.000.000] y 100.000 subintervalos.
 
 Se paralelizo con openmp usando #pragma omp parallel for con la clausula reduction para sumar cada hilo independientemente y luego sumar el total de estos. 
